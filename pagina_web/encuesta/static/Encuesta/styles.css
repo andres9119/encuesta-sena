@@ -1,0 +1,57 @@
+/* Estilos para el formulario de encuesta */
+body {
+  background-color: #7faceb; /* Color de fondo de toda la página */
+}
+.container {
+  background-color: #bdbfe6; /* Color de fondo del contenedor */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #00000040; /* Sombra al contenedor */
+}
+
+.form-control {
+  background-color: #263f4e; /* Color de fondo de los campos de entrada */
+  width: 50%; /* Ajustar ancho al 50% */
+}
+
+.textarea-control {
+  width: 50%; /* Ajustar ancho al 50% solo para textarea */
+}
+
+textarea.form-control {
+  background-color: #ececf8;
+  height: 1rem; /* Establecer la altura */
+  resize: vertical; /* Permitir que se redimensione verticalmente */
+  width: 50%;
+}
+
+input.form-control {
+  background-color: #ececf8;
+  height: 2rem; /* Establecer la altura */
+  resize: vertical; /* Permitir que se redimensione verticalmente */
+  width: 50%;
+}
+
+select.form-select {
+  background-color: #ececf8; /* Color de fondo de los campos de entrada */
+  width: 50%; /* Ancho predeterminado para los campos de entrada */
+}
+
+select.form-select {
+  width: auto; /* Permitir que el campo 'select' se ajuste según el texto seleccionado */
+}
+
+.btn-lg {
+  font-size: 1.25rem; /* Tamaño de fuente más grande */
+  padding: 4rem; /* Ajustar el relleno */
+  width: 20%; /* Ocupar el 20% del ancho */
+  margin: 5rem;
+  box-shadow: #263f4e 2px;
+}
+
+.btn-success {
+  background-color: green; /* Cambiar el color de fondo a verde */
+  border-color: green; /* Cambiar el borde del botón a verde */
+  color: white; /* Cambiar el color del texto a blanco para mejor contraste */
+  padding: 4rem;
+}
